@@ -1,0 +1,12 @@
+{
+    "current_version": 1,
+    "dependencies": "log,xmldom",
+    "logging_enabled": "false",
+    "name": "xmldomSmokeTest",
+    "params": [],
+    "permissions": {
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "xmldomSmokeTest.js"
+}
