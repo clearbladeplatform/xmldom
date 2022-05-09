@@ -6,12 +6,12 @@ compatible with `W3C DOM level2`; and some compatible with `level3`. Supports
 
 Install:
 -------
->npm install xmldom
+Include this library as a dependency of your code service.
 
 Example:
 ====
 ```javascript
-var DOMParser = require('xmldom').DOMParser;
+var DOMParser = xmldom.DOMParser;
 var doc = new DOMParser().parseFromString(
     '<xml xmlns="a" xmlns:c="./lite">\n'+
         '\t<child>test</child>\n'+
